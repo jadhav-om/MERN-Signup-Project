@@ -328,7 +328,7 @@ const SignupForm = () => {
         }
 
         const response = await axios.post(
-          `${process.env.REACT_APP_API_URL}/auth/signup`,
+          `https://mern-signup-project-api.onrender.com/api/auth/signup`,
           formDataToSend,
           {
             headers: {
